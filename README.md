@@ -5,7 +5,7 @@ iOS device as mouse/touchpad
 
 - Download and install `Twisted`, `pyobjc-core` and `pyobjc` 
 ``` 
-$ wget http://twistedmatrix.com/trac/wiki/Downloads 
+$ wget http://twistedmatrix.com/Releases/Twisted/16.0/Twisted-16.0.0.tar.bz2 
 $ wget https://pypi.python.org/packages/source/p/pyobjc-core/pyobjc-core-3.0.4.tar.gz
 $ wget https://pypi.python.org/packages/source/p/pyobjc/pyobjc-3.0.4.tar.gz
 ...
