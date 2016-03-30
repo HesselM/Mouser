@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="btnConnect" destination="BDZ-ce-Pxa" id="uRG-ce-2vr"/>
+                <outlet property="btnSettings" destination="CyD-mQ-Fi7" id="LJQ-Sw-Sko"/>
+                <outlet property="btnToggleKeyboard" destination="xIN-Re-dIu" id="8mL-qa-DXz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vwMouse" destination="yIb-RD-WmI" id="Ttt-VX-b9L"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yIb-RD-WmI">
+                    <rect key="frame" x="8" y="8" width="584" height="584"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIN-Re-dIu">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="T3h-Ze-jQK"/>
+                                <constraint firstAttribute="height" constant="50" id="w2g-4M-OYN"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="keyboard.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDZ-ce-Pxa">
+                            <rect key="frame" x="388" y="8" width="90" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="OQg-Nk-FmF"/>
+                                <constraint firstAttribute="width" constant="50" id="mQy-EM-sW6"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="connect.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyD-mQ-Fi7">
+                            <rect key="frame" x="290" y="8" width="90" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="7JI-iX-IUh"/>
+                                <constraint firstAttribute="width" constant="50" id="pQ7-V9-7va"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="settings.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.53906850380000004" blue="0.52354604370000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <accessibility key="accessibilityConfiguration" label="MouseView">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstItem="BDZ-ce-Pxa" firstAttribute="leading" secondItem="CyD-mQ-Fi7" secondAttribute="trailing" constant="8" id="Dqn-Ix-hvG"/>
+                        <constraint firstItem="CyD-mQ-Fi7" firstAttribute="top" secondItem="yIb-RD-WmI" secondAttribute="top" constant="8" id="JGX-W9-lKs"/>
+                        <constraint firstItem="xIN-Re-dIu" firstAttribute="leading" secondItem="BDZ-ce-Pxa" secondAttribute="trailing" constant="8" id="aVR-vG-MLN"/>
+                        <constraint firstItem="xIN-Re-dIu" firstAttribute="top" secondItem="yIb-RD-WmI" secondAttribute="top" constant="8" id="cip-v3-tnW"/>
+                        <constraint firstAttribute="trailing" secondItem="xIN-Re-dIu" secondAttribute="trailing" constant="8" id="t4V-am-03O"/>
+                        <constraint firstItem="BDZ-ce-Pxa" firstAttribute="top" secondItem="yIb-RD-WmI" secondAttribute="top" constant="8" id="ygJ-VI-tRg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yIb-RD-WmI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="7k0-jL-fgW"/>
+                <constraint firstAttribute="trailing" secondItem="yIb-RD-WmI" secondAttribute="trailing" constant="8" id="I9F-pq-VcY"/>
+                <constraint firstAttribute="bottom" secondItem="yIb-RD-WmI" secondAttribute="bottom" constant="8" id="kGD-Q9-KeA"/>
+                <constraint firstItem="yIb-RD-WmI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="qgl-RK-rxI"/>
+            </constraints>
+            <point key="canvasLocation" x="303" y="102"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="connect.png" width="512" height="512"/>
+        <image name="keyboard.png" width="512" height="512"/>
+        <image name="settings.png" width="512" height="512"/>
+    </resources>
+</document>

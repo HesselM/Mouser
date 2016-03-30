@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0A19DF1C8EC1D40051AFF5 /* ToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A19DE1C8EC1D40051AFF5 /* ToggleButton.m */; };
+		AE3EBFF01C975A740061EEDF /* GestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3EBFEF1C975A740061EEDF /* GestureHandler.m */; };
+		AE3EBFF21C9860BF0061EEDF /* MouseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A19E31C90186F0051AFF5 /* MouseEvent.m */; };
+		AE3EBFF91C99B38E0061EEDF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE3EBFF81C99B38E0061EEDF /* Settings.bundle */; };
+		AE9763071CA87B97000DD54B /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9763041CA87B97000DD54B /* connect.png */; };
+		AE9763081CA87B97000DD54B /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9763051CA87B97000DD54B /* keyboard.png */; };
+		AE9763091CA87B97000DD54B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9763061CA87B97000DD54B /* settings.png */; };
+		AEC761451C8C7A1B005CBDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC761441C8C7A1B005CBDA8 /* main.m */; };
+		AEC761481C8C7A1B005CBDA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC761471C8C7A1B005CBDA8 /* AppDelegate.m */; };
+		AEC761501C8C7A1B005CBDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC7614F1C8C7A1B005CBDA8 /* Assets.xcassets */; };
+		AEC761681C8C88CE005CBDA8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC761661C8C88CE005CBDA8 /* MainViewController.m */; };
+		AEC761691C8C88CE005CBDA8 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC761671C8C88CE005CBDA8 /* MainView.xib */; };
+		AEC7616F1C8C9AF7005CBDA8 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7616E1C8C9AF7005CBDA8 /* Client.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE0A19D91C8D5FE20051AFF5 /* mouser.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = mouser.py; path = Server/mouser.py; sourceTree = "<group>"; };
+		AE0A19DD1C8EC1D40051AFF5 /* ToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleButton.h; sourceTree = "<group>"; };
+		AE0A19DE1C8EC1D40051AFF5 /* ToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToggleButton.m; sourceTree = "<group>"; };
+		AE0A19E01C8F7CF20051AFF5 /* pyautoguifix.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = pyautoguifix.py; path = Server/pyautoguifix.py; sourceTree = "<group>"; };
+		AE0A19E21C90186F0051AFF5 /* MouseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseEvent.h; sourceTree = "<group>"; };
+		AE0A19E31C90186F0051AFF5 /* MouseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseEvent.m; sourceTree = "<group>"; };
+		AE3EBFEE1C975A740061EEDF /* GestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureHandler.h; sourceTree = "<group>"; };
+		AE3EBFEF1C975A740061EEDF /* GestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureHandler.m; sourceTree = "<group>"; };
+		AE3EBFF81C99B38E0061EEDF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AE9763041CA87B97000DD54B /* connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect.png; sourceTree = "<group>"; };
+		AE9763051CA87B97000DD54B /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		AE9763061CA87B97000DD54B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		AEC761401C8C7A1B005CBDA8 /* Mouser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mouser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC761441C8C7A1B005CBDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC761461C8C7A1B005CBDA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC761471C8C7A1B005CBDA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC7614F1C8C7A1B005CBDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC761541C8C7A1B005CBDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC761651C8C88CE005CBDA8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AEC761661C8C88CE005CBDA8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AEC761671C8C88CE005CBDA8 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		AEC7616E1C8C9AF7005CBDA8 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		AEC761701C8C9B01005CBDA8 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		AECA9DE51C917DD90008B810 /* autotest.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = autotest.py; path = Server/autotest.py; sourceTree = "<group>"; };
+		AECA9DE71C91B48D0008B810 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AECA9DE81C91B48D0008B810 /* AUTHORS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS.txt; sourceTree = "<group>"; };
+		AECA9DE91C91B48D0008B810 /* CHANGES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES.txt; sourceTree = "<group>"; };
+		AECA9DEB1C91B48D0008B810 /* calc7key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc7key.png; sourceTree = "<group>"; };
+		AECA9DEC1C91B48D0008B810 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		AECA9DED1C91B48D0008B810 /* cheatsheet.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cheatsheet.rst; sourceTree = "<group>"; };
+		AECA9DEE1C91B48D0008B810 /* conf.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = conf.py; sourceTree = "<group>"; };
+		AECA9DEF1C91B48D0008B810 /* cookbook.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cookbook.rst; sourceTree = "<group>"; };
+		AECA9DF01C91B48D0008B810 /* faq.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = faq.rst; sourceTree = "<group>"; };
+		AECA9DF11C91B48D0008B810 /* general.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = general.rst; sourceTree = "<group>"; };
+		AECA9DF21C91B48D0008B810 /* index.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.rst; sourceTree = "<group>"; };
+		AECA9DF31C91B48D0008B810 /* install.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = install.rst; sourceTree = "<group>"; };
+		AECA9DF41C91B48D0008B810 /* introduction.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = introduction.rst; sourceTree = "<group>"; };
+		AECA9DF51C91B48D0008B810 /* keyboard.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = keyboard.rst; sourceTree = "<group>"; };
+		AECA9DF61C91B48D0008B810 /* make.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = make.bat; sourceTree = "<group>"; };
+		AECA9DF71C91B48D0008B810 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		AECA9DF81C91B48D0008B810 /* mouse.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = mouse.rst; sourceTree = "<group>"; };
+		AECA9DF91C91B48D0008B810 /* msgbox.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = msgbox.rst; sourceTree = "<group>"; };
+		AECA9DFA1C91B48D0008B810 /* roadmap.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = roadmap.rst; sourceTree = "<group>"; };
+		AECA9DFB1C91B48D0008B810 /* screenshot.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = screenshot.rst; sourceTree = "<group>"; };
+		AECA9DFC1C91B48D0008B810 /* sorcerers_apprentice_brooms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sorcerers_apprentice_brooms.png; sourceTree = "<group>"; };
+		AECA9DFD1C91B48D0008B810 /* square_spiral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_spiral.png; sourceTree = "<group>"; };
+		AECA9DFE1C91B48D0008B810 /* tests.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = tests.rst; sourceTree = "<group>"; };
+		AECA9DFF1C91B48D0008B810 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		AECA9E001C91B48D0008B810 /* MANIFEST.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = MANIFEST.in; sourceTree = "<group>"; };
+		AECA9E021C91B48D0008B810 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		AECA9E031C91B48D0008B810 /* __main__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __main__.py; sourceTree = "<group>"; };
+		AECA9E041C91B48D0008B810 /* _pyautogui_java.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = _pyautogui_java.py; sourceTree = "<group>"; };
+		AECA9E051C91B48D0008B810 /* _pyautogui_osx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = _pyautogui_osx.py; sourceTree = "<group>"; };
+		AECA9E061C91B48D0008B810 /* _pyautogui_win.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = _pyautogui_win.py; sourceTree = "<group>"; };
+		AECA9E071C91B48D0008B810 /* _pyautogui_x11.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = _pyautogui_x11.py; sourceTree = "<group>"; };
+		AECA9E081C91B48D0008B810 /* _window_win.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = _window_win.py; sourceTree = "<group>"; };
+		AECA9E091C91B48D0008B810 /* screenshotUtil.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = screenshotUtil.py; sourceTree = "<group>"; };
+		AECA9E0A1C91B48D0008B810 /* tweens.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tweens.py; sourceTree = "<group>"; };
+		AECA9E0B1C91B48D0008B810 /* window.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = window.py; sourceTree = "<group>"; };
+		AECA9E0C1C91B48D0008B810 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AECA9E0D1C91B48D0008B810 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		AECA9E0F1C91B48D0008B810 /* basicTests.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = basicTests.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC7613D1C8C7A1B005CBDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0A19D81C8D5FC70051AFF5 /* OSX_Mouser */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A19D91C8D5FE20051AFF5 /* mouser.py */,
+				AE0A19E01C8F7CF20051AFF5 /* pyautoguifix.py */,
+				AECA9DE51C917DD90008B810 /* autotest.py */,
+				AECA9DE61C91B48D0008B810 /* pyautogui */,
+			);
+			name = OSX_Mouser;
+			sourceTree = "<group>";
+		};
+		AE9763031CA87B97000DD54B /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				AE9763041CA87B97000DD54B /* connect.png */,
+				AE9763051CA87B97000DD54B /* keyboard.png */,
+				AE9763061CA87B97000DD54B /* settings.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		AEC761371C8C7A1A005CBDA8 = {
+			isa = PBXGroup;
+			children = (
+				AE0A19D81C8D5FC70051AFF5 /* OSX_Mouser */,
+				AEC761421C8C7A1B005CBDA8 /* iOS_Mouser */,
+				AEC761411C8C7A1B005CBDA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC761411C8C7A1B005CBDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC761401C8C7A1B005CBDA8 /* Mouser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC761421C8C7A1B005CBDA8 /* iOS_Mouser */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7614F1C8C7A1B005CBDA8 /* Assets.xcassets */,
+				AEC7616C1C8C8C80005CBDA8 /* Delegate */,
+				AEC7616A1C8C8C49005CBDA8 /* ViewControllers */,
+				AEC7616B1C8C8C50005CBDA8 /* Views */,
+				AEC7616D1C8C9AC9005CBDA8 /* Helpers */,
+				AEC761431C8C7A1B005CBDA8 /* Supporting Files */,
+			);
+			name = iOS_Mouser;
+			path = Mouser;
+			sourceTree = "<group>";
+		};
+		AEC761431C8C7A1B005CBDA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9763031CA87B97000DD54B /* icon */,
+				AEC761541C8C7A1B005CBDA8 /* Info.plist */,
+				AEC761441C8C7A1B005CBDA8 /* main.m */,
+				AE3EBFF81C99B38E0061EEDF /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEC7616A1C8C8C49005CBDA8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEC761651C8C88CE005CBDA8 /* MainViewController.h */,
+				AEC761661C8C88CE005CBDA8 /* MainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AEC7616B1C8C8C50005CBDA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A19DD1C8EC1D40051AFF5 /* ToggleButton.h */,
+				AE0A19DE1C8EC1D40051AFF5 /* ToggleButton.m */,
+				AEC761671C8C88CE005CBDA8 /* MainView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AEC7616C1C8C8C80005CBDA8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AEC761461C8C7A1B005CBDA8 /* AppDelegate.h */,
+				AEC761471C8C7A1B005CBDA8 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		AEC7616D1C8C9AC9005CBDA8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AEC761701C8C9B01005CBDA8 /* Client.h */,
+				AEC7616E1C8C9AF7005CBDA8 /* Client.m */,
+				AE3EBFEE1C975A740061EEDF /* GestureHandler.h */,
+				AE3EBFEF1C975A740061EEDF /* GestureHandler.m */,
+				AE0A19E21C90186F0051AFF5 /* MouseEvent.h */,
+				AE0A19E31C90186F0051AFF5 /* MouseEvent.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AECA9DE61C91B48D0008B810 /* pyautogui */ = {
+			isa = PBXGroup;
+			children = (
+				AECA9DE71C91B48D0008B810 /* .gitignore */,
+				AECA9DE81C91B48D0008B810 /* AUTHORS.txt */,
+				AECA9DE91C91B48D0008B810 /* CHANGES.txt */,
+				AECA9DEA1C91B48D0008B810 /* docs */,
+				AECA9DFF1C91B48D0008B810 /* LICENSE.txt */,
+				AECA9E001C91B48D0008B810 /* MANIFEST.in */,
+				AECA9E011C91B48D0008B810 /* pyautogui */,
+				AECA9E0C1C91B48D0008B810 /* README.md */,
+				AECA9E0D1C91B48D0008B810 /* setup.py */,
+				AECA9E0E1C91B48D0008B810 /* tests */,
+			);
+			name = pyautogui;
+			path = Server/pyautogui;
+			sourceTree = "<group>";
+		};
+		AECA9DEA1C91B48D0008B810 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				AECA9DEB1C91B48D0008B810 /* calc7key.png */,
+				AECA9DEC1C91B48D0008B810 /* calculator.png */,
+				AECA9DED1C91B48D0008B810 /* cheatsheet.rst */,
+				AECA9DEE1C91B48D0008B810 /* conf.py */,
+				AECA9DEF1C91B48D0008B810 /* cookbook.rst */,
+				AECA9DF01C91B48D0008B810 /* faq.rst */,
+				AECA9DF11C91B48D0008B810 /* general.rst */,
+				AECA9DF21C91B48D0008B810 /* index.rst */,
+				AECA9DF31C91B48D0008B810 /* install.rst */,
+				AECA9DF41C91B48D0008B810 /* introduction.rst */,
+				AECA9DF51C91B48D0008B810 /* keyboard.rst */,
+				AECA9DF61C91B48D0008B810 /* make.bat */,
+				AECA9DF71C91B48D0008B810 /* Makefile */,
+				AECA9DF81C91B48D0008B810 /* mouse.rst */,
+				AECA9DF91C91B48D0008B810 /* msgbox.rst */,
+				AECA9DFA1C91B48D0008B810 /* roadmap.rst */,
+				AECA9DFB1C91B48D0008B810 /* screenshot.rst */,
+				AECA9DFC1C91B48D0008B810 /* sorcerers_apprentice_brooms.png */,
+				AECA9DFD1C91B48D0008B810 /* square_spiral.png */,
+				AECA9DFE1C91B48D0008B810 /* tests.rst */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		AECA9E011C91B48D0008B810 /* pyautogui */ = {
+			isa = PBXGroup;
+			children = (
+				AECA9E021C91B48D0008B810 /* __init__.py */,
+				AECA9E031C91B48D0008B810 /* __main__.py */,
+				AECA9E041C91B48D0008B810 /* _pyautogui_java.py */,
+				AECA9E051C91B48D0008B810 /* _pyautogui_osx.py */,
+				AECA9E061C91B48D0008B810 /* _pyautogui_win.py */,
+				AECA9E071C91B48D0008B810 /* _pyautogui_x11.py */,
+				AECA9E081C91B48D0008B810 /* _window_win.py */,
+				AECA9E091C91B48D0008B810 /* screenshotUtil.py */,
+				AECA9E0A1C91B48D0008B810 /* tweens.py */,
+				AECA9E0B1C91B48D0008B810 /* window.py */,
+			);
+			path = pyautogui;
+			sourceTree = "<group>";
+		};
+		AECA9E0E1C91B48D0008B810 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				AECA9E0F1C91B48D0008B810 /* basicTests.py */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC7613F1C8C7A1B005CBDA8 /* Mouser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC761571C8C7A1B005CBDA8 /* Build configuration list for PBXNativeTarget "Mouser" */;
+			buildPhases = (
+				AEC7613C1C8C7A1B005CBDA8 /* Sources */,
+				AEC7613D1C8C7A1B005CBDA8 /* Frameworks */,
+				AEC7613E1C8C7A1B005CBDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mouser;
+			productName = Mouser;
+			productReference = AEC761401C8C7A1B005CBDA8 /* Mouser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC761381C8C7A1A005CBDA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Van Der Molen Software";
+				TargetAttributes = {
+					AEC7613F1C8C7A1B005CBDA8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R3RADCVVWU;
+					};
+				};
+			};
+			buildConfigurationList = AEC7613B1C8C7A1B005CBDA8 /* Build configuration list for PBXProject "Mouser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC761371C8C7A1A005CBDA8;
+			productRefGroup = AEC761411C8C7A1B005CBDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC7613F1C8C7A1B005CBDA8 /* Mouser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC7613E1C8C7A1B005CBDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9763091CA87B97000DD54B /* settings.png in Resources */,
+				AE9763071CA87B97000DD54B /* connect.png in Resources */,
+				AEC761501C8C7A1B005CBDA8 /* Assets.xcassets in Resources */,
+				AE3EBFF91C99B38E0061EEDF /* Settings.bundle in Resources */,
+				AE9763081CA87B97000DD54B /* keyboard.png in Resources */,
+				AEC761691C8C88CE005CBDA8 /* MainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC7613C1C8C7A1B005CBDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC761481C8C7A1B005CBDA8 /* AppDelegate.m in Sources */,
+				AEC761681C8C88CE005CBDA8 /* MainViewController.m in Sources */,
+				AEC7616F1C8C9AF7005CBDA8 /* Client.m in Sources */,
+				AE0A19DF1C8EC1D40051AFF5 /* ToggleButton.m in Sources */,
+				AE3EBFF01C975A740061EEDF /* GestureHandler.m in Sources */,
+				AE3EBFF21C9860BF0061EEDF /* MouseEvent.m in Sources */,
+				AEC761451C8C7A1B005CBDA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEC761551C8C7A1B005CBDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC761561C8C7A1B005CBDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC761581C8C7A1B005CBDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Mouser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vandermolensoftware.Mouser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEC761591C8C7A1B005CBDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Mouser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vandermolensoftware.Mouser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC7613B1C8C7A1B005CBDA8 /* Build configuration list for PBXProject "Mouser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC761551C8C7A1B005CBDA8 /* Debug */,
+				AEC761561C8C7A1B005CBDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC761571C8C7A1B005CBDA8 /* Build configuration list for PBXNativeTarget "Mouser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC761581C8C7A1B005CBDA8 /* Debug */,
+				AEC761591C8C7A1B005CBDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC761381C8C7A1A005CBDA8 /* Project object */;
+}

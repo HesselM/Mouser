@@ -51,3 +51,9 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+# pyautogui
+Server/pyautogui
+
+#OSX things..
+.DS_store
